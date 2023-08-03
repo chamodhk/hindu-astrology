@@ -12,6 +12,6 @@ def calculate(year):
   return degrees,minutes, seconds
 
 
-degrees,minutes, seconds = calculate(year)
+deg,min, sec = calculate(year)
 
-print(f"{min} * {sec}' {mil}''")
+print(f"{deg} * {min}' {sec}''")
